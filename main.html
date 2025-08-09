@@ -7,7 +7,7 @@
 </head>
 
 <body>
-<form action="" method="post">
+<form method="post">
     <!-- Name -->
     <label for="name">Name*</label>
     <input type="text" id="name" name="name" placeholder="Name" required>
@@ -29,6 +29,7 @@
     <!-- Car Brands -->
     <label for="cars">Car Brands</label>
     <select id="cars" name="cars">
+		 <option value="" disabled selected>--Please choose an option--</option>
         <option value="BMW">BMW</option>
         <option value="Audi">Audi</option>
         <option value="Mercedez">Mercedez</option>
@@ -41,6 +42,9 @@
     <!-- DOB -->
     <label for="dob">DOB*</label>
     <input type="date" id="dob" name="dob" required>
+
+	<label for="tel">Phone Number</label>
+	<input type="tel" id="tel" name="tel" placeholder="xxx-xxx-xxxx">
 
     <!-- Password -->
     <label for="password">Password*</label>
